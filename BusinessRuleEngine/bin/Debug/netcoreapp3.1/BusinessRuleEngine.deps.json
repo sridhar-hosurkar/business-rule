@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BusinessRuleEngine/1.0.0": {
+        "dependencies": {
+          "BusinessRuleModels": "1.0.0"
+        },
+        "runtime": {
+          "BusinessRuleEngine.dll": {}
+        }
+      },
+      "BusinessRuleModels/1.0.0": {
+        "runtime": {
+          "BusinessRuleModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessRuleEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessRuleModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

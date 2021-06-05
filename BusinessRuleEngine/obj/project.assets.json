@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BusinessRuleModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BusinessRuleModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessRuleModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessRuleModels/1.0.0": {
+      "type": "project",
+      "path": "../BusinessRuleModels/BusinessRuleModels.csproj",
+      "msbuildProject": "../BusinessRuleModels/BusinessRuleModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BusinessRuleModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mahati\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\src\\BusinessRuleEngine\\BusinessRuleEngine\\BusinessRuleEngine.csproj",
+      "projectName": "BusinessRuleEngine",
+      "projectPath": "C:\\src\\BusinessRuleEngine\\BusinessRuleEngine\\BusinessRuleEngine.csproj",
+      "packagesPath": "C:\\Users\\Mahati\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\BusinessRuleEngine\\BusinessRuleEngine\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mahati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\src\\BusinessRuleEngine\\BusinessRuleModels\\BusinessRuleModels.csproj": {
+              "projectPath": "C:\\src\\BusinessRuleEngine\\BusinessRuleModels\\BusinessRuleModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
